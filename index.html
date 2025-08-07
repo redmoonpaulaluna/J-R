@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Retro Pikachu Runner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+
+  <div id="hud">
+    <div id="distance">Distance: 0</div>
+    <div id="coins">Coins: 0</div>
+  </div>
+
+  <div id="gameOverScreen" style="display:none;">
+    <h1>Game Over</h1>
+    <p id="finalScore"></p>
+    <button onclick="startGame()">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
